@@ -3,7 +3,6 @@ import "./App.css";
 // import { Posts } from "./components/API/Posts/Posts";
 // import { Users } from "./components/API/Users/Users";
 import { Item } from "./components/Item/Item";
-// import { ItemCount } from "./components/ItemCount/ItemCount";
 
 const item = {
 	id: 1,
@@ -21,7 +20,6 @@ function App() {
 		<div className="appContainer">
 			<h1>Clase 8</h1>
 			<Item item={item} />
-			{/* <ItemCount /> */}
 			{/* <Users /> */}
 			{/* <Posts /> */}
 			{/* <Comments /> */}
