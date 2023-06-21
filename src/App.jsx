@@ -1,8 +1,12 @@
 import "./App.css";
-// import { Comments } from "./components/API/Comments/Comments";
-// import { Posts } from "./components/API/Posts/Posts";
-// import { Users } from "./components/API/Users/Users";
+import { Comments } from "./components/API/Comments/Comments";
+import { Posts } from "./components/API/Posts/Posts";
+import { Users } from "./components/API/Users/Users";
+import { MyDiv } from "./components/HoC/MyDiv";
+import { addLink } from "./components/HoC/addLink";
 import { Item } from "./components/Item/Item";
+
+const MyDivWithLink = addLink(MyDiv);
 
 const item = {
 	id: 1,
@@ -19,10 +23,12 @@ function App() {
 	return (
 		<div className="appContainer">
 			<h1>Clase 8</h1>
-			<Item item={item} />
+			{/* <Item item={item} /> */}
 			{/* <Users /> */}
 			{/* <Posts /> */}
 			{/* <Comments /> */}
+			{/* <MyDiv text="Div Simple" /> */}
+			{/* <MyDivWithLink link="https://www.ole.com.ar/" /> */}
 		</div>
 	);
 }
