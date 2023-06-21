@@ -1,0 +1,20 @@
+.posts--container {
+	width: 1000px;
+	padding: 20px;
+	border-radius: 5px;
+	background: rgb(137, 58, 228);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.post--container {
+	width: 100%;
+	margin: 10px 0px;
+}
+.post--title {
+	text-transform: uppercase;
+}
+.post--body {
+	color: rgb(243, 178, 178);
+}

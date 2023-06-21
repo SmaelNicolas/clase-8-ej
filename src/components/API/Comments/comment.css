@@ -1,0 +1,29 @@
+.comments--container {
+	width: 900px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background: peru;
+	border-radius: 10px;
+	padding: 10px;
+	gap: 20px 0px;
+}
+.comment--container {
+	width: 40%;
+	padding: 10px;
+	min-height: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border-radius: 8px;
+	border: 2px solid rgba(0, 0, 0, 0.226);
+}
+.comment--name {
+	color: rgb(97, 50, 36);
+}
+.comment--email {
+	color: rgb(97, 50, 36);
+}
